@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact | (De)vice versa</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <!-- add your name or URL here -->
+    <meta name="author" content="YOUR NAME OR URL">
+    <!-- add a description of your site/company/product here -->
+    <meta name="description" content="YOUR DESCRIPTION HERE">
+    <!-- add the keywords here that represent your site, an example few have been added -->
+    <meta name="keywords" content="web design, creative, mobile, app, design studio, agency">
+    <!-- add your name or URL here -->
+    <meta name="publisher" content="YOUR NAME OR URL HERE">
+    <meta name="rating" content="General">
+    <meta name="revisit-after" content="30 days">
+    <!-- this allows Google to follow your page -->
+    <meta name="robots" content="INDEX,FOLLOW">
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.css" rel="stylesheet" media="screen">
+    <!-- Theme styles -->
+    <link href="../css/styles.css" rel="stylesheet" media="screen">
+    <!-- media-queries -->
+    <link href="../css/media-queries.css" rel="stylesheet" media="screen">
+
+    <!-- Google Font - Montserrat & Signika -->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Signika:300,400,600,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- modernizr -->
+    <script src="../js/modernizr.custom.js"></script>
+  </head>
+  <body>
+
+  <!-- nav -->
+  <nav class="navbar  navbar-fixed-top" role="navigation">
+    <!-- container -->
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../"><img src="../img/logo-blue.png"></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse  navbar-collapse  navbar-ex1-collapse">
+        <ul class="nav  navbar-nav">
+            <li ><a href="../">Présentation</a></li>
+            <li><a href="../connect" class="login">Connexion</a></li>
+            <li><a href="../inscription" class="sign-up">Inscription</a></li>
+        </ul>
+      </div><!-- /navbar-collapse -->
+    </div><!-- /container -->
+  </nav><!-- /nav --> 
+
+    <!-- masthead -->
+    <div class="jumbotron">
+      <h2 class="jumbotron--title">Contact</h2>
+    </div><!-- /masthead -->
+
+      <!-- intro -->
+      <section class="intro intro-contact">
+        <div class="container container-medium">
+          <h3>
+            Nous ne mordons pas, promis.
+          </h3>
+        </div>
+      </section><!-- /intro -->   
+      
+        <!-- main-content -->
+        <div class="container  main-content">
+
+          <div class="row">
+
+            <!-- left content -->
+            <div class="col-lg-8">
+
+              <h4 class="contact--title">Si vous avez des questions, suggestions, remerciements, n'hésitez pas.</h4>
+
+                <!-- comment form -->
+                <form method="post" action="send-email.php" id="contact-form" class="form-horizontal" role="form">
+                  <div class="form-group">
+                    <label for="name" class="col-12  col-lg-2  control-label">Nom :</label>
+                    <div class="col-12  col-lg-10">
+                      <input type="text" class="form-control" name="name" id="name">
+                    </div>
+                  </div>                  
+                  <div class="form-group">
+                    <label for="email" class="col-12  col-lg-2  control-label">Email :</label>
+                    <div class="col-12  col-lg-10">
+                      <input type="email" class="form-control" name="email" id="email">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="message" class="col-12  col-lg-2  control-label">Message :</label>
+                    <div class="col-12  col-lg-10">
+                      <textarea class="form-control" rows="3" name="message" id="message"></textarea>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-12  col-lg-2">&nbsp;</div>
+                    <div class="col-12  col-lg-10">
+                      <button type="submit" class="btn btn--green">Envoyez</button>
+                    </div>
+                  </div>
+                </form><!-- /comment form -->
+
+            </div><!-- /left content -->
+
+              <!-- right content -->
+              <div class="col-lg-4  contact--right-hand-bar">
+
+                <hr class="hidden-lg">
+
+                <!-- row -->
+                <div class="row">
+
+                  <div class="col-xs-6  col-sm-6  col-md-6  col-lg-12">
+                  <h4 class="contact--title">Notre équipe est</h4>
+                    <address class="contact--main-address">
+                      Rue Pépin, 35<br>
+                      Namur 5000<br>
+                      Belgique<br>
+                    </address>
+                  </div>
+
+                </div><!-- row -->
+
+              </div><!-- /right content -->
+
+          </div><!-- row -->
+
+        </div><!-- /main-content --> 
+
+    <!-- footer -->
+    <section class="footer  flush--top">
+      <div class="container">
+        <div class="row">
+          <ul class="list-unstyled  col-12  col-sm-2  col-lg-2">
+            <li><a href="../">Présentation</a></li>
+            <li><a href="#">Demandes disponibles</a></li>
+            <li><a>Nouvelle demande</a></li>
+            <li><a href="#">Connexion</a></li>
+            <li><a href="../inscription">Inscription</a></li>
+            <li><a>Compte</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="col-12  col-sm-7  col-lg-7  col-sm-offset-1 col-md-offset-1 col-lg-offset-3  text-right  hard--right align-right-ipad">
+            <h3 class="footer--main-logo"><img src="../img/logo-white.png"></h3>
+            <p>
+              Concept & Réalisation <a href="http://adrienlabigne.be" target="_blank" class="underline">Adrien Labigne</a> &#169; 2014
+            </p>
+          </div>
+        </div>
+        <p class="made-with-love">Made with ♥ in Belgium</p>
+      </div>
+    </section><!-- footer -->
+
+    <!-- jQuery -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="../js/jquery.easing.1.3.js"></script>
+
+    <!-- Bootstrap js -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- touch effects for hover effects in portfolio section -->
+    <script src="../js/toucheffects.min.js"></script>
+    <script src="../js/classie.min.js"></script> 
+
+    <!-- bxSlider js file -->
+    <script src="../js/jquery.bxslider.js"></script>
+
+    <!-- Envy js -->
+    <script src="../js/envy.js"></script>
+
+    <!-- Optionally enable responsive features in IE8. Respond.js can be obtained from https://github.com/scottjehl/Respond -->
+    <script src="../js/respond.min.js"></script>
+
+    <!-- form validation plugin -->
+    <script src="../js/jquery.validate.min.js"></script> 
+    <script src="../js/envy-form-validation.js"></script> 
+
+    <!-- Bootstrap hover dropdown -->
+    <script src="../js/bootstrap-hover-dropdown.min.js"></script>
+    <script>
+    // very simple to use!
+      $(document).ready(function() {
+        $('.js-activated').dropdownHover().dropdown();
+      });
+    </script>
+
+  </body>
+</html>
